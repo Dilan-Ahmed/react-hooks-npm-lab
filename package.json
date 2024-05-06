@@ -28,6 +28,11 @@
   "bugs": {
     "url": "https://github.com/learn-co-curriculum/react-hooks-npm-lab/issues"
   },
+  "scripts": {
+    "test": "echo 'Hello World!'",
+    "start": "serve",
+    "build": "esbuild index.js --bundle --outfile=dist/out.js"
+  },
   "homepage": "https://github.com/learn-co-curriculum/react-hooks-npm-lab#readme",
   "keywords": []
 }
